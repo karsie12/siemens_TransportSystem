@@ -1,0 +1,27 @@
+﻿ORGANIZATION_BLOCK "Main"
+TITLE = "Main Program Sweep (Cycle)"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+
+BEGIN
+	
+	"MHJ-PLC-Lab-Function-S71500"(MinDiByte:=0,
+	                              MaxDiByte:=1);
+	"MHJ-PLC-Lab-Function-S71500-NextInputArea"(MinDiByte:=256,
+	                                            MaxDiByte:=259);
+	
+	
+	"K1" := "S2";
+	"K2" := "S3";
+	"P5" := "S1";
+	"P4" := "S4";
+	"P3" := "S3";
+	"P2" := NOT "S0";
+	"P1" := "S2";
+	"IstPos" := "SollPos";
+	
+	
+	
+	
+END_ORGANIZATION_BLOCK
+
