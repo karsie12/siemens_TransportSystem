@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2023-05-08T20:07:18.1116219Z</Created>
+    <Created>2023-05-08T20:46:19.4733709Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -177,7 +177,7 @@
   <Blank Num="1" UId="95" />
   <Access Scope="GlobalVariable" UId="96">
     <Symbol UId="97">
-      <Component Name="S5" UId="98" />
+      <Component Name="S1" UId="98" />
     </Symbol>
   </Access>
   <Token Text=";" UId="99" />
