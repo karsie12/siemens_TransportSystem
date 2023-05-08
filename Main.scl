@@ -17,7 +17,7 @@ BEGIN
 	"P4" := "S4";
 	"P3" := "S3";
 	"P2" := NOT "S0";
-	"P1" := "S2";
+	"P1" := "S3";
 	"IstPos" := "SollPos";
 	
 	
